@@ -47,5 +47,9 @@
             ?>
         </tbody>
     </table>
+    <form action="import.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="myfile">
+        <input type="submit" name="submit" value="import student">
+    </form>
 </body>
 </html>
